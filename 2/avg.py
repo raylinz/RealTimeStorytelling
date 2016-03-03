@@ -21,7 +21,7 @@ while 1:
         continue
 
     if len(deltas):
-        rate = sum(deltas)/float(len(deltas))
+        rate = float(len(deltas)) / (sum(deltas)
     else:
         rate = 0
 
